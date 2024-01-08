@@ -1,0 +1,137 @@
+#ifndef DEFINES_H_
+#define DEFINES_H_
+
+#include "ap_int.h"
+#include "ap_fixed.h"
+#include "nnet_utils/nnet_types.h"
+#include <cstddef>
+#include <cstdio>
+
+//hls-fpga-machine-learning insert numbers
+#define N_INPUT_1_1 15
+#define N_INPUT_2_1 6
+#define seq_out_2 15
+#define feature_out_2 6
+#define N_LAYER_1_4 15
+#define N_LAYER_2_4 8
+#define N_LAYER_1_6 15
+#define N_LAYER_2_6 6
+#define seq_out_9 15
+#define feature_out_9 6
+#define N_LAYER_1_11 15
+#define N_LAYER_2_11 8
+#define N_LAYER_1_13 15
+#define N_LAYER_2_13 6
+#define seq_out_16 15
+#define feature_out_16 6
+#define N_LAYER_1_18 15
+#define N_LAYER_2_18 8
+#define N_LAYER_1_20 15
+#define N_LAYER_2_20 6
+#define N_SIZE_1_23 90
+#define N_LAYER_24 32
+#define N_LAYER_26 16
+#define N_LAYER_28 8
+#define N_LAYER_30 3
+
+//hls-fpga-machine-learning insert layer-precision
+typedef ap_fixed<27,14> input_2accum_t;
+typedef ap_fixed<21,10> input_t;
+typedef ap_fixed<27,14> multi_head_attention_2accum_t;
+typedef ap_fixed<27,14> multi_head_attention_2table_t;
+typedef ap_fixed<21,10> multi_head_attention_2_default_t;
+typedef ap_fixed<21,10> layer2_t;
+typedef ap_fixed<27,14> add_4accum_t;
+typedef ap_fixed<21,10> layer3_t;
+typedef ap_fixed<27,14> dense_8accum_t;
+typedef ap_fixed<27,14> dense_8table_t;
+typedef ap_fixed<21,10> layer4_t;
+typedef ap_fixed<21,10> dense_8_default_t;
+typedef ap_uint<1> layer4_index;
+typedef ap_fixed<27,14> dense_8_reluaccum_t;
+typedef ap_fixed<27,14> dense_8_relutable_t;
+typedef ap_fixed<21,10> layer5_t;
+typedef ap_fixed<27,14> dense_9accum_t;
+typedef ap_fixed<27,14> dense_9table_t;
+typedef ap_fixed<21,10> layer6_t;
+typedef ap_fixed<21,10> dense_9_default_t;
+typedef ap_uint<1> layer6_index;
+typedef ap_fixed<27,14> add_5accum_t;
+typedef ap_fixed<21,10> layer8_t;
+typedef ap_fixed<27,14> multi_head_attention_3accum_t;
+typedef ap_fixed<27,14> multi_head_attention_3table_t;
+typedef ap_fixed<21,10> multi_head_attention_3_default_t;
+typedef ap_fixed<21,10> layer9_t;
+typedef ap_fixed<27,14> add_6accum_t;
+typedef ap_fixed<21,10> layer10_t;
+typedef ap_fixed<27,14> dense_10accum_t;
+typedef ap_fixed<27,14> dense_10table_t;
+typedef ap_fixed<21,10> layer11_t;
+typedef ap_fixed<21,10> dense_10_default_t;
+typedef ap_uint<1> layer11_index;
+typedef ap_fixed<27,14> dense_10_reluaccum_t;
+typedef ap_fixed<27,14> dense_10_relutable_t;
+typedef ap_fixed<21,10> layer12_t;
+typedef ap_fixed<27,14> dense_11accum_t;
+typedef ap_fixed<27,14> dense_11table_t;
+typedef ap_fixed<21,10> layer13_t;
+typedef ap_fixed<21,10> dense_11_default_t;
+typedef ap_uint<1> layer13_index;
+typedef ap_fixed<27,14> add_7accum_t;
+typedef ap_fixed<21,10> layer15_t;
+typedef ap_fixed<27,14> multi_head_attention_4accum_t;
+typedef ap_fixed<27,14> multi_head_attention_4table_t;
+typedef ap_fixed<21,10> multi_head_attention_4_default_t;
+typedef ap_fixed<21,10> layer16_t;
+typedef ap_fixed<27,14> add_8accum_t;
+typedef ap_fixed<21,10> layer17_t;
+typedef ap_fixed<27,14> dense_12accum_t;
+typedef ap_fixed<27,14> dense_12table_t;
+typedef ap_fixed<21,10> layer18_t;
+typedef ap_fixed<21,10> dense_12_default_t;
+typedef ap_uint<1> layer18_index;
+typedef ap_fixed<27,14> dense_12_reluaccum_t;
+typedef ap_fixed<27,14> dense_12_relutable_t;
+typedef ap_fixed<21,10> layer19_t;
+typedef ap_fixed<27,14> dense_13accum_t;
+typedef ap_fixed<27,14> dense_13table_t;
+typedef ap_fixed<21,10> layer20_t;
+typedef ap_fixed<21,10> dense_13_default_t;
+typedef ap_uint<1> layer20_index;
+typedef ap_fixed<27,14> add_9accum_t;
+typedef ap_fixed<21,10> layer22_t;
+typedef ap_fixed<21,10> model_default_t;
+typedef ap_fixed<27,14> dense_14accum_t;
+typedef ap_fixed<27,14> dense_14table_t;
+typedef ap_fixed<21,10> layer24_t;
+typedef ap_fixed<21,10> dense_14_default_t;
+typedef ap_uint<1> layer24_index;
+typedef ap_fixed<27,14> dense_14_reluaccum_t;
+typedef ap_fixed<27,14> dense_14_relutable_t;
+typedef ap_fixed<21,10> layer25_t;
+typedef ap_fixed<27,14> dense_15accum_t;
+typedef ap_fixed<27,14> dense_15table_t;
+typedef ap_fixed<21,10> layer26_t;
+typedef ap_fixed<21,10> dense_15_default_t;
+typedef ap_uint<1> layer26_index;
+typedef ap_fixed<27,14> dense_15_reluaccum_t;
+typedef ap_fixed<27,14> dense_15_relutable_t;
+typedef ap_fixed<21,10> layer27_t;
+typedef ap_fixed<27,14> dense_16accum_t;
+typedef ap_fixed<27,14> dense_16table_t;
+typedef ap_fixed<21,10> layer28_t;
+typedef ap_fixed<21,10> dense_16_default_t;
+typedef ap_uint<1> layer28_index;
+typedef ap_fixed<27,14> dense_16_reluaccum_t;
+typedef ap_fixed<27,14> dense_16_relutable_t;
+typedef ap_fixed<21,10> layer29_t;
+typedef ap_fixed<27,14> dense_17accum_t;
+typedef ap_fixed<27,14> dense_17table_t;
+typedef ap_fixed<21,10> layer30_t;
+typedef ap_fixed<21,10> dense_17_default_t;
+typedef ap_uint<1> layer30_index;
+typedef ap_fixed<27,14> dense_17_softmaxaccum_t;
+typedef ap_fixed<27,14> dense_17_softmaxtable_t;
+typedef ap_fixed<21,10> result_t;
+
+#endif

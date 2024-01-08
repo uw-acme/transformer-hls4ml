@@ -1,0 +1,231 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    add_30:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    add_31:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    add_32:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    add_33:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    add_34:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    add_35:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    input_6:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_45:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_45_quantized_relu:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_46:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_46_linear:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      table_size: 1024
+      table_t: ap_fixed<18,8>
+      weight: ap_fixed<10,7>
+    q_dense_47:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_47_quantized_relu:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_48:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_48_linear:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      table_size: 1024
+      table_t: ap_fixed<18,8>
+      weight: ap_fixed<10,7>
+    q_dense_49:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_49_quantized_relu:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_50:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_50_linear:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      table_size: 1024
+      table_t: ap_fixed<18,8>
+      weight: ap_fixed<10,7>
+    q_dense_51:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_51_quantized_relu:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_52:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_52_quantized_relu:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_53:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_dense_53_quantized_softmax:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      bias: ap_fixed<10,7>
+      scale: ap_fixed<10,7>
+      weight: ap_fixed<10,7>
+    q_multi_head_attention_15:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      accum_t: ap_fixed<22,10>
+      bias: ap_fixed<10,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<10,7>
+      table_size: 2048
+      table_t: ap_fixed<14,11>
+      weight: ap_fixed<10,7>
+    q_multi_head_attention_16:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      accum_t: ap_fixed<22,10>
+      bias: ap_fixed<10,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<10,7>
+      table_size: 2048
+      table_t: ap_fixed<14,11>
+      weight: ap_fixed<10,7>
+    q_multi_head_attention_17:
+      Precision: ap_fixed<10,7>
+      ReuseFactor: 1
+      Strategy: Resource
+      accum_t: ap_fixed<22,10>
+      bias: ap_fixed<10,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<10,7>
+      table_size: 2048
+      table_t: ap_fixed<14,11>
+      weight: ap_fixed<10,7>
+  Model:
+    Precision: ap_fixed<10,7>
+    ReuseFactor: 1
+    Strategy: Resource
+IOType: io_parallel
+KerasModel: !keras_model 'runs/GW_run/r1_7int_3frac/keras_model.h5'
+OutputDir: runs/GW_run/r1_7int_3frac
+Part: xcvu13p-fhga2104-2L-e
+ProjectName: myproject
+Stamp: 81E70c6F

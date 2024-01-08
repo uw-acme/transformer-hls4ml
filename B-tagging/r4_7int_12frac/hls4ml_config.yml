@@ -1,0 +1,346 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    add_90:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    add_91:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    add_92:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    add_93:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    add_94:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    add_95:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    input_16:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      scale: ap_fixed<19,7>
+      weight: ap_fixed<19,7>
+    q_dense_150:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_150_quantized_relu:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_151:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_151_linear:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_152:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_152_quantized_relu:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_153:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_153_linear:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_154:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_154_quantized_relu:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_155:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_155_linear:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_156:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_156_quantized_relu:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_157:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_157_quantized_relu:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_158:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_158_quantized_relu:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_159:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_dense_159_quantized_softmax:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_multi_head_attention_45:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_multi_head_attention_46:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+    q_multi_head_attention_47:
+      Precision: ap_fixed<19,7>
+      ReuseFactor: 4
+      Strategy: Resource
+      accum_t: ap_fixed<28,14>
+      bias: ap_fixed<19,7>
+      exp_range: 4
+      inv_range: 256
+      scale: ap_fixed<19,7>
+      table_size: 1024
+      table_t: ap_fixed<28,14>
+      weight: ap_fixed<19,7>
+  Model:
+    Precision: ap_fixed<19,7>
+    ReuseFactor: 4
+    Strategy: Resource
+IOType: io_parallel
+KerasModel: !keras_model 'runs/GW_run/r4_7int_12frac/keras_model.h5'
+OutputDir: runs/GW_run/r4_7int_12frac
+Part: xcvu13p-fhga2104-2L-e
+ProjectName: myproject
+Stamp: 502A1297
